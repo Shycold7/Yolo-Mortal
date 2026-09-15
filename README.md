@@ -132,7 +132,7 @@ npm run deploy
 发布地址由 `package.json` 的 `homepage` 字段决定，当前为：
 
 ```
-https://shycold7.github.io/iamzlion/
+https://shycold7.github.io/Yolo-Mortal/
 ```
 
 若使用 GitHub Actions 或其他平台（Vercel / Netlify / Cloudflare Pages），构建命令填 `npm run build`，输出目录填 `dist`。
