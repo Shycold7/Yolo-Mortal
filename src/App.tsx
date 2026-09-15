@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence, useScroll, useSpring, useTransform, useMotionValue } from 'motion/react';
 import { ArrowRight, Mail, Instagram, Twitter, Github, ChevronDown, ExternalLink, X, ArrowLeft, Play, Maximize2, Cpu, Globe, Layers, Zap, Activity, Dna, Bot, Leaf } from 'lucide-react';
 import { PROJECTS, SKILLS, Project } from './constants';
-import avatarImg from './assets/zlion.jpg';
 import MatrixBackground from './components/MatrixBackground';
 import DisplacementEffect from './components/DisplacementEffect';
 import AIChatWidget from './components/AIChatWidget';
@@ -589,11 +588,11 @@ export default function App() {
                     className="relative flex-shrink-0"
                   >
                     <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-neon-blue/30 relative group">
-                      <img 
-                        src={avatarImg} 
-                        alt="Zlion" 
-                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                      />
+                      <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-neon-blue/25 via-black to-neon-purple/25 group-hover:scale-110 transition-transform duration-500">
+                        <span className="font-display text-7xl md:text-8xl font-bold tracking-tighter text-neon-ice/90 drop-shadow-[0_0_24px_rgba(0,242,255,0.45)]">
+                          Z
+                        </span>
+                      </div>
                       <div className="absolute inset-0 rounded-full border-2 border-neon-blue/50 animate-pulse" />
                       {/* Rotating ring */}
                       <div className="absolute inset-[-8px] rounded-full border border-dashed border-neon-blue/30 animate-spin-slow" />

@@ -1,10 +1,9 @@
 {
   "name": "iamzlion",
-  "homepage": "https://35311908677.github.io/iamzlion/",
+  "homepage": "https://shycold7.github.io/iamzlion/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://35311908677.github.io/iamzlion/",
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",
     "build": "vite build",
